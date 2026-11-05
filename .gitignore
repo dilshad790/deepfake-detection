@@ -1,0 +1,26 @@
+# 1. Create .gitignore to exclude sensitive credentials and raw video folders
+cat << 'EOF' > .gitignore
+.env
+firebase-credentials.json
+firebase-adminsdk.json
+__pycache__/
+venv/
+.idea/
+uploads/
+data/
+dataset/train_sample_videos/
+dataset/test_videos/
+EOF
+
+# 2. Initialize Git (if not already initialized) and stage your project files
+git init
+git add README.md My_Research_Paper.03.2026.docx app.py requirements.txt Procfile .gitignore
+git add templates/ static/ model/deepfake_video_model.h5 notebook/deep-fake-detection-on-videos.ipynb dataset/sample_submission.csv
+
+# 3. Commit with team and advisor attribution
+git commit -m "Add RealReveal research paper, hybrid InceptionV3-GRU web app, and team README"
+
+# 4. Link to your GitHub repository and push (replace repo name if different)
+git branch -M main
+git remote add origin https://github.com/dilshad790/DeepFakeVideoDetection.git
+git push -u origin main
