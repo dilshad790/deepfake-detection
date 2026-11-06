@@ -8,7 +8,7 @@ The system integrates spatial feature extraction via a pre-trained **InceptionV3
 
 * **Title:** *RealReveal: Bringing Deepfake Detection to the Web with Advanced Machine Learning*
 * **Journal Submission:** *Baghdad Science Journal* (Manuscript ID: `EMID:188806401e1896d0`)
-* **Manuscript File:** [My\_Research\_Paper.03.2026.docx](https://www.google.com/search?q=./My_Research_Paper.03.2026.docx)
+* **Manuscript File:** [My\_Research\_Paper.03.2026.docx](https://docs.google.com/document/d/1OJQnBvUtmLhU41-LiKX1rBCZdV8hr-Pn/edit?usp=sharing&ouid=103519851724243150042&rtpof=true&sd=true)
 * **Abstract Summary:** This study presents a systematic evaluation of contemporary deepfake detection paradigms—spanning deep learning architectures, conventional machine learning algorithms, and statistical inference—and introduces **RealReveal**, an end-to-end web platform that bridges academic digital forensics and real-world multimedia verification. By combining InceptionV3 frame-level embeddings (`2048-D`) with a masked multi-layer GRU sequence classifier across 20 frames per video, the framework captures both subtle pixel-level spatial artifacts and inter-frame temporal inconsistencies.
 
 ## Project Team & Academic Guidance
